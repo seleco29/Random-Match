@@ -8,10 +8,10 @@
 <title>Random Matcher</title>
 </head>
 <body>
-	Total number of teams is ${totalTeams}
+	Total number of teams is ${totalTeamsNumber}
 	<hr>
-	<form action="teamNameList">
-		<c:forEach begin="1" var="temp" end="${totalTeams}">
+	<form action="teamsNameList" method="post">
+		<c:forEach begin="1" var="temp" end="${totalTeamsNumber}">
 			<label for="teamName">Enter name of team ${temp}</label>
 			<input type="text" name="teamName" required="required">
 			<br />

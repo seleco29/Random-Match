@@ -8,9 +8,9 @@
 <title>Random Matcher</title>
 </head>
 <body>
-	<form action="totalTeamsForm">
+	<form action="totalNumberOfTeams" method="post">
 		<label for="totalTeams">Enter total number of teams</label> 
-		<input type="number" name="totalTeams" max="20" min="2" required="required"> 
+		<input type="number" name="totalTeamsNumber" max="20" min="2" required="required"> 
 		<input type="submit" value="Submit">
 	</form>
 </body>

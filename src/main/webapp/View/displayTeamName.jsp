@@ -8,10 +8,11 @@
 <title>Random Matcher</title>
 </head>
 <body>
-	<c:forEach items="${teamName}" var="team">
-${team}<br>
+
+	<c:forEach items="${finalList}" var="team">
+		${team}<br>
 	</c:forEach>
-	<form action="totalTeamsForm">
+	<form action="<%=request.getContextPath()%>/">
 		<input type="submit" value="Back">
 	</form>
 </body>
